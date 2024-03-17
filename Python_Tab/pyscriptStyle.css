@@ -1,0 +1,96 @@
+
+.pythonTerminal{
+    position: relative;
+
+    margin: 75px;
+
+    border: 5px black solid;
+    background-color: rgb(219, 219, 219);
+
+    width: 630px;
+    height: 800px;
+}
+
+.TerminalPlayButtons {
+
+    position: relative; 
+
+    width: 80px; 
+    height: 50px;
+
+    border: 3px black solid; 
+    border-radius: 8px;
+
+    text-align: center;
+    font-weight: 900;
+
+    background-color: transparent;
+    color:black;
+
+    transition: all 0.25s ease;
+}
+
+.TerminalPlayButtons:hover {
+    background-color: rgba(125, 255, 0, 0.4);
+}
+
+
+.TerminalStopButtons {
+
+    position: relative; 
+
+    width: 80px; 
+    height: 50px;
+
+
+    border: 3px black solid; 
+    border-radius: 8px;
+
+    text-align: center;
+    font-weight: 900;
+
+    background-color: transparent;
+    color: black;
+
+
+    transition: all 0.25s ease;
+}
+
+.TerminalStopButtons:hover {
+    background-color: rgba(255, 0, 0, 0.4); 
+}
+
+
+.Displays{
+    position: relative;
+
+    margin: 10px;
+    margin-top: 0px;
+
+    width: 600px;
+    height: 650px;
+
+    border: 5px black solid;
+    background-color: rgb(31, 31, 31);
+
+    color: white;
+
+    overflow-x: hidden;
+}
+
+.inputFields{
+    border: 2px black solid;
+    margin-left: 10px;
+    margin-top: 0px;
+
+    width: 550px;
+    height: 30px;
+}
+
+.sendButtons{
+    width: 48px;
+    height: 36px;
+    margin-top: 0px;
+    border: 2px black solid;
+
+}

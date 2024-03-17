@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta name="viewport" content="width=device-width">
+        <meta charset="UTF-8">
+
+        <title>TheMKDev</title>
+        <link rel="stylesheet" href="../headerStyle.css">
+        <link rel="stylesheet" href="pyscriptStyle.css">
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+        <link rel="stylesheet" href="https://pyscript.net/releases/2023.11.1/core.css" />
+        <script type="module" src="https://pyscript.net/releases/2023.11.1/core.js"></script>
+    
+    </head>
+
+
+    <body>
+
+        <!-- Header -->
+
+        <div id="header">
+
+            <div id="LogoTitleBox">
+                <img src="../Images/MkDevLogoV2.png" id="Logo" alt="TheMKDevLogo">
+
+                <span id="Title">TheMKDev</span>
+
+            </div>
+
+            <table class="projectTabs">
+
+                <tr>
+                    
+                    <td style="width: 150px;">
+                        <a href="../index.html" target="_self" style="text-decoration: none;"><h1 id="homeTab">Home</h1></a>
+                    </td>
+
+                    <td style="width: 150px;">
+                        <a href="../Unity_Tab/UnityPage.html" target="_self" style="text-decoration: none;"><h1 id="unityTab">Unity</h1></a>
+                    </td>
+
+                    <td style="width: 150px;">
+                        <a href="../Python_Tab/PythonPage.html" target="_self" style="text-decoration: none;"><h1 id="pythonTab">Python</h1></a>
+                    </td>
+
+                </tr>
+
+            </table>
+
+            <div class="socialButtons">
+
+                <a href="https://twitter.com/TheMKDev/" target="_blank" id="twitter">
+
+                    <i class="fa-brands fa-twitter fa-2x" id="twitter"></i>
+                </a>
+
+                <a href="https://github.com/TheMKDev1" target="_blank" id="github">
+
+                    <i class="fa-brands fa-github fa-2x" id="github"></i>
+                </a>
+
+                <a href="https://themkdev.itch.io" target="_blank" id="itch">
+
+                    <i class="fa-brands fa-itch-io fa-2x" id="itch"></i>
+                </a>
+
+                <a href="https://discordapp.com/users/1003017556988268574" target="_blank" id="discord">
+
+                    <i class="fa-brands fa-discord fa-2x" id="discord"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+        <div style="display: flex; width: 100%; height: 100%; flex-wrap: wrap; justify-content: center;">
+            
+            <div class="pythonTerminal">
+
+                <h1 style="text-align: center;">Battle Ship</h1>
+
+                <script type="py" id="PyScript_BattleShip" src="./PythonGames/pyscript_BattleShip_In_Python.py" async></script>
+
+                <div class="Displays">
+                    <div id="outputDisplay_BattleShip" style="width: 98%; height: 100%; margin-left:1%; margin-right: 1%;">Loading...</div>
+                </div>
+            
+                <input type="text" id="inputString_BattleShip" class="inputFields"></input>
+                <button id="inputButton_BattleShip" class="sendButtons" type="submit" py-click="SendInput_BattleShip">Send</button>
+            
+            </div>
+
+            <div class="pythonTerminal">
+
+                <h1 style="text-align: center;">Hexapawn</h1>
+    
+                <script type="py" id="PyScript_Hexapawn" src="./PythonGames/pyscript_Hexapawn_In_Python.py" async></script>
+                
+                <div class="Displays">
+                    <div id="outputDisplay_Hexapawn" style="width: 98%; height: 100%; margin-left:1%; margin-right: 1%;">Loading...</div>
+                </div>
+    
+                <input type="text" id="inputString_Hexapawn" class="inputFields"></input>
+                <button id="inputButton_Hexapawn" class="sendButtons" type="submit" py-click="SendInput_Hexapawn">Send</button>
+            
+            </div>
+
+            <div style="flex-basis: 100%; height: 0px;"></div>
+
+            <div class="pythonTerminal">
+
+                <h1 style="text-align: center;">XO</h1>
+    
+                <script type="py" id="PyScript_XO" src="./PythonGames/pyscript_XO_In_Python.py" async></script>
+                
+                <div class="Displays">
+                    <div id="outputDisplay_XO" style="width: 98%; height: 100%; margin-left:1%; margin-right: 1%;">Loading...</div>
+                </div>
+    
+                <input type="text" id="inputString_XO" class="inputFields"></input>
+                <button id="inputButton_XO" class="sendButtons" type="submit" py-click="SendInput_XO">Send</button>
+            
+            </div>
+
+            <div class="pythonTerminal">
+
+                <h1 style="text-align: center;">Hangman</h1>
+    
+                <script type="py" id="PyScript_Hangman" src="./PythonGames/pyscript_Hangman_In_Python.py" async></script>
+                
+                <div class="Displays">
+                    <div id="outputDisplay_Hangman" style="width: 98%; height: 100%; margin-left:1%; margin-right: 1%;">Loading...</div>
+                </div>
+    
+                <input type="text" id="inputString_Hangman" class="inputFields"></input>
+                <button id="inputButton_Hangman" class="sendButtons" type="submit" py-click="SendInput_Hangman">Send</button>
+            
+            </div>
+
+            <div class="pythonTerminal">
+
+                <h1 style="text-align: center;">Big Tac</h1>
+    
+                <script type="py" id="PyScript_BigTac" src="./PythonGames/pyscript_BigTac_In_Python.py" async></script>
+                
+                <div class="Displays">
+                    <div id="outputDisplay_BigTac" style="width: 98%; height: 100%; margin-left:1%; margin-right: 1%;">Loading...</div>
+                </div>
+    
+                <input type="text" id="inputString_BigTac" class="inputFields"></input>
+                <button id="inputButton_BigTac" class="sendButtons" type="submit" py-click="SendInput_BigTac">Send</button>
+            
+            </div>
+
+        </div>
+
+        <!-- JavaScript -->
+    </body>    
+
+</html>
+

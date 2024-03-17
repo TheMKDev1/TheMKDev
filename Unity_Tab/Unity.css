@@ -1,0 +1,117 @@
+#DisplayTable{
+
+    position: relative; 
+    width: 100%; 
+
+
+    border-spacing: 0px 72px;
+}
+
+
+.GameBoxes{
+    
+    width: 1500px; 
+    height: 710px; 
+
+    margin: auto; 
+
+    border-radius: 5px; 
+
+    background-color: gray; 
+    box-shadow: 0px 0px 12px 5px gray;
+}
+
+#GameBoxHeader{
+
+    height: 80px;  
+
+
+    box-shadow: 0px 4px 30px -10px black;
+}
+
+
+.FramePlayButtons {
+
+    position: relative; 
+
+    margin-top: 50px;
+
+    width: 120px; 
+    height: 60px;
+
+    border: 3px black solid; 
+    border-radius: 8px;
+
+    text-align: center;
+    font-weight: 900;
+
+    background-color: transparent;
+    color:black;
+
+    transition: all 0.25s ease;
+}
+
+.FramePlayButtons:hover {
+    background-color: rgba(125, 255, 0, 0.4);
+}
+
+
+.FrameStopButtons {
+
+    position: relative; 
+
+    margin-top: 50px;
+
+    width: 120px; 
+    height: 60px;
+
+
+    border: 3px black solid; 
+    border-radius: 8px;
+
+    text-align: center;
+    font-weight: 900;
+
+    background-color: transparent;
+    color: black;
+
+
+    transition: all 0.25s ease;
+}
+
+.FrameStopButtons:hover {
+    background-color: rgba(255, 0, 0, 0.4); 
+}
+
+
+.GameCovers{
+
+    position: relative; 
+    top: 10px;
+
+    margin: auto;
+
+    grid-column: 1; 
+    grid-row: 1; 
+
+    border: 8px black solid;
+    border-radius: 5px;
+
+    box-shadow: 0px 0px 40px 0px black;  
+}
+
+.GameFrames{
+
+    position: relative; 
+    top: 6px;
+
+    grid-column: 1; 
+    grid-row: 1;
+
+    border: 0px black solid;
+    border-radius: 4px;
+
+    width: 960px;
+    height: 600px;
+    overflow: hidden;
+}

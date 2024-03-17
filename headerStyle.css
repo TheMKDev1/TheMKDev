@@ -1,0 +1,141 @@
+
+
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+
+    margin: 0px;
+    background: darkgray;
+}
+
+#header{
+    width: auto;
+    height: 60px;
+    border-bottom: black 3px solid;
+    background-color: rgb(45, 45, 45);
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    position: sticky;
+    top: 0px;
+
+    z-index: 10;
+}
+
+#LogoTitleBox{
+    width: 400px;
+    height: 75px;
+
+    position: absolute;
+    background-color: rgb(30, 30, 30);
+    border-radius: 20px;
+    top: 20px;
+    left: 30px;
+    border: black 3px solid;
+}
+
+#Logo{
+    position: relative;
+    margin: 3px;
+    left: 5px;
+
+    border: black 2px solid;
+    border-radius: 50px;
+}
+
+#Title{
+
+    position: relative; 
+    bottom: 15px;
+    left: 12px;
+    width: 300px;
+
+
+    font-family: "Press Start 2P";
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: -1px;
+    font-size: 38px;
+    color: darkred;
+    text-shadow: 6px 4px 4px black;
+}
+
+/* #region Socials*/ 
+
+.socialButtons{
+    position: relative;
+    bottom: 45px;
+    left: 1630px;
+    text-decoration: none;
+}
+
+
+#twitter{
+    text-decoration: none;
+    color: rgb(29, 161, 242);
+    margin-right: 15px;
+
+    transition: transform 0.25s ease;
+}
+
+#github{
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+
+    transition: transform 0.25s ease;
+}
+
+#itch{
+    text-decoration: none;
+    color: rgb(250, 92, 92);
+    margin-right: 15px;
+
+    transition: transform 0.25s ease;
+}
+
+#discord{
+    text-decoration: none;
+    color: rgb(88, 101, 242);
+    margin-right: 10px;
+
+    transition: transform 0.25s ease;
+}
+
+
+#twitter:hover, #github:hover, #itch:hover, #discord:hover{
+    transform: scale(1.25, 1.25);
+}
+
+/* #endregion */
+
+
+.projectTabs{
+    position: relative;
+    left: 602px;
+
+    height: 100%;
+
+    border-spacing: 80px 0px;
+
+    overflow-x: hidden;
+}
+
+#unityTab, #pythonTab, #homeTab{
+
+    color: gray;
+    font-size: 32px;
+    text-shadow: 5px 3px 3px black;
+
+    margin-top: 0;
+    margin-bottom: 0;
+    display: inline;
+
+    transition: color 0.25s ease, text-shadow 0.3s ease, font-size 0.3s ease;
+}
+
+#unityTab:hover, #pythonTab:hover, #homeTab:hover{
+    color: lightgray;
+    text-shadow: 6px 4px 2px black;
+    font-size: 34px;
+}
